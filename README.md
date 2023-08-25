@@ -2,18 +2,16 @@
 
 IEEE-Trans template for [Typst](https://github.com/typst/typst).
 
-{% note %}
-
-**Note:** This template is still not 100% replication of `IEEE-trans.cls` due to the lacks of following features
-
-* Floating footnote
-
-  In LaTeX, a very long footnote will auto-spread into two columns. Typst currently doesn't do that out-of-the-box (yet).
-
-* Two-column floating figure
-
-
-{% endnote %}
+> [!NOTE]  
+> This template is still not 100% replication of `IEEE-trans.cls` due to the lacks of following features
+>
+> * Floating footnote
+>
+>   In LaTeX, a very long footnote will auto-spread into two columns. Typst currently doesn't do that out-of-the-box (yet).
+>
+> * Two-column floating figure
+>
+>   This is currently not possible, but there is a discussion about this. Expected to be supported in the next release cycle. (I think)
 
 PR to adjust this template is always welcome, or just [fork](https://en.wikipedia.org/wiki/Fork_(software_development)) it.
 
